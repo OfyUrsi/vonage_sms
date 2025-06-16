@@ -1,0 +1,22 @@
+# === Root-level Git Ignore ===
+
+# Ignore node_modules in frontend and backend
+/frontend/node_modules
+/backend/node_modules
+
+# Ignore .env files in backend only (frontend doesn’t use .env for secrets)
+/backend/.env
+
+# Optional: ignore frontend .env (if you ever create one)
+# /frontend/.env
+
+# Other common ignores
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js or Create React App build output
+/frontend/build
+/backend/build
